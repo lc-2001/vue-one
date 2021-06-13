@@ -117,7 +117,12 @@ export default {
         b += a.getMonth() + 1 + '/'
         b += a.getDate() + '  '
         b += a.getHours() + ':'
-        b += a.getMinutes() + ':'
+        if (a.getMinutes().toString().length == 1) {
+          b += '0' + a.getMinutes() + ':'
+        }
+        else {
+          b += a.getMinutes() + ':'
+        }
         b += a.getSeconds()
         this.time = b
       }, 1000)
