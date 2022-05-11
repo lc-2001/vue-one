@@ -4,21 +4,19 @@
 -->
 <template>
   <div class="com-page">
+    我是hot
     <Hot />
   </div>
 </template>
 <script>
-import Hot from '@/components/Hot'
+import Hot from "@/components/Hot";
 export default {
   data() {
-    return {
-
-    }
+    return {};
   },
   components: {
-    Hot
-  }
-}
+    Hot,
+  },
+};
 </script>
-<style scoped>
-</style>
+<style scoped></style>
