@@ -4,7 +4,6 @@
 -->
 <template>
   <div class="com-page">
-    我是hot
     <Hot />
   </div>
 </template>
